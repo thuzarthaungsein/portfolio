@@ -215,17 +215,15 @@ export const resumeData = {
   skills: {
     languages: [
       { name: "PHP", level: 5 },
-      { name: "Laravel", level: 4 },
       { name: "React.js", level: 4 },
       { name: "TypeScript", level: 3 },
+      { name: "Dart", level: 3 },
     ],
     frameworks: [
-      { name: "Android SDK", level: 5 },
+      { name: "Laravel", level: 5 },
+      { name: "Filament", level: 3 },
+      { name: "Astro", level: 4 },
       { name: "Flutter", level: 4 },
-      { name: "React Native", level: 3 },
-      { name: "SwiftUI", level: 2 },
-      { name: "Jetpack Compose", level: 4 },
-      { name: "Spring Boot", level: 2 },
     ],
     tools: [
       { name: "Git", level: 5 },
