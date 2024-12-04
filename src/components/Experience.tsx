@@ -54,9 +54,11 @@ export default function Experience() {
             </div>
             <ul className="list-disc list-outside space-y-3 text-muted-foreground ml-4">
               {exp.responsibilities.map((desc, i) => (
-                <li key={i} className="leading-relaxed pl-2">
-                  {desc}
-                </li>
+                <li
+                  key={i}
+                  className="leading-relaxed pl-2"
+                  dangerouslySetInnerHTML={{ __html: desc }}
+                />
               ))}
             </ul>
             <div className="flex flex-wrap gap-2 pt-4">

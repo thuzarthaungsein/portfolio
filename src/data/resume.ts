@@ -118,9 +118,11 @@ export const resumeData = {
       ],
     },
   ],
+
   projects: [
     {
       id: 1,
+      url: "https://mmstudyonline.com/",
       name: "Myanmar Study Online (MMSO)",
       languages: ["Laravel", "Livewire", "MySQL"],
       description:
@@ -150,6 +152,7 @@ export const resumeData = {
     },
     {
       id: 4,
+      url: "https://t-i-s.jp/",
       name: "T-I-S (Trust Information Space)",
       languages: ["Vue.js", "Laravel", "MySQL"],
       description:
@@ -185,6 +188,24 @@ export const resumeData = {
     },
   ],
 
+  own: [
+    {
+      id: 1,
+      url: "https://match-pairs-react.vercel.app/",
+      name: "Match Pairs",
+      languages: ["React.js", "TypeScript"],
+      description:
+        "This fun and interactive game tests your memory by pairing matching cards as quickly as possible.",
+    },
+    {
+      id: 1,
+      url: "https://painter-react.vercel.app/",
+      name: "Painter",
+      languages: ["React.js", "TypeScript"],
+      description: "Painter application using React and TypeScript.",
+    },
+  ],
+
   communityContributions: [],
   certificates: [
     {
@@ -217,7 +238,6 @@ export const resumeData = {
       { name: "PHP", level: 5 },
       { name: "React.js", level: 4 },
       { name: "TypeScript", level: 3 },
-      { name: "Dart", level: 3 },
     ],
     frameworks: [
       { name: "Laravel", level: 5 },
