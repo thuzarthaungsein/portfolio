@@ -26,7 +26,7 @@ export default function OwnProjects() {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="icon icon-tabler icons-tabler-outline icon-tabler-confetti inline-block text-orange-500 mr-2"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-confetti sm:inline text-orange-500 hidden"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M4 5h2" />
@@ -39,7 +39,7 @@ export default function OwnProjects() {
             <path d="M18 19h2" />
             <path d="M19 18v2" />
             <path d="M14 16.518l-6.518 -6.518l-4.39 9.58a1 1 0 0 0 1.329 1.329l9.579 -4.39z" />
-          </svg>
+          </svg>{" "}
           My Small Creations{" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ export default function OwnProjects() {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="icon icon-tabler icons-tabler-outline icon-tabler-confetti inline-block text-orange-500"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-confetti sm:inline text-orange-500 hidden"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M4 5h2" />
