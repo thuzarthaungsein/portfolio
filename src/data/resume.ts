@@ -27,8 +27,9 @@ export const resumeData = {
         "Managing and securing server data backups and media storage on AWS S3 and Cloudflare R2.",
       ],
       skills: [
-        "PHP Laravel",
         "React.js",
+        "PHP Laravel",
+        "TypeScript",
         "Tailwind",
         "Livewire",
         "Astro",
@@ -53,8 +54,8 @@ export const resumeData = {
         "Utilized Git for version control and deployed projects using CI/CD pipelines, resulting in seamless development, testing and release.",
       ],
       skills: [
-        "PHP Laravel",
         "React.js",
+        "PHP Laravel",
         "Tailwind",
         "Livewire",
         "MySQL",
@@ -77,8 +78,8 @@ export const resumeData = {
         "Deployed robust web servers with Forge and automated CI/CD pipelines, resulting in efficientdeployment processes, enhancing site reliability and reducing downtime.",
       ],
       skills: [
-        "PHP Laravel",
         "Vue.js",
+        "PHP Laravel",
         "Flutter & Dart",
         "Tailwind",
         "MySQL",
@@ -95,7 +96,7 @@ export const resumeData = {
         "Innovated outsourced projects using Yii Framework that enhanced client trust and user engagement.",
         "Collaborated with team members to optimize database structures.",
       ],
-      skills: ["PHP Yii", "Javascript", "CSS", "MySQL"],
+      skills: ["Javascript", "CSS", "PHP Yii", "MySQL"],
     },
     {
       title: "Full Stack Developer",
@@ -245,11 +246,12 @@ export const resumeData = {
   ],
   skills: {
     languages: [
-      { name: "PHP", level: 5 },
       { name: "React.js", level: 4 },
       { name: "TypeScript", level: 3 },
+      { name: "PHP", level: 5 },
     ],
     frameworks: [
+      { name: "Next.js", level: 5 },
       { name: "Laravel", level: 5 },
       { name: "Filament", level: 3 },
       { name: "Astro", level: 4 },
