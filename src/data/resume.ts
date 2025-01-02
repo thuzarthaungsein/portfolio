@@ -198,11 +198,18 @@ export const resumeData = {
         "This fun and interactive game tests your memory by pairing matching cards as quickly as possible.",
     },
     {
-      id: 1,
+      id: 2,
       url: "https://painter-react.vercel.app/",
       name: "Painter",
       languages: ["React.js", "TypeScript"],
       description: "Painter application using React and TypeScript.",
+    },
+    {
+      id: 3,
+      url: "https://weather-dash-react.vercel.app/",
+      name: "Weather Dashboard",
+      languages: ["React.js", "TypeScript"],
+      description: "Weather Dashboard application using React and TypeScript.",
     },
   ],
 
