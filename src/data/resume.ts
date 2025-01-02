@@ -194,6 +194,7 @@ export const resumeData = {
       url: "https://match-pairs-react.vercel.app/",
       name: "Match Pairs",
       languages: ["React.js", "TypeScript"],
+      icon: '<path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1" />',
       description:
         "This fun and interactive game tests your memory by pairing matching cards as quickly as possible.",
     },
@@ -202,6 +203,7 @@ export const resumeData = {
       url: "https://painter-react.vercel.app/",
       name: "Painter",
       languages: ["React.js", "TypeScript"],
+      icon: '<path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" /><path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />',
       description: "Painter application using React and TypeScript.",
     },
     {
@@ -209,6 +211,7 @@ export const resumeData = {
       url: "https://weather-dash-react.vercel.app/",
       name: "Weather Dashboard",
       languages: ["React.js", "TypeScript"],
+      icon: '<path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />',
       description: "Weather Dashboard application using React and TypeScript.",
     },
   ],
