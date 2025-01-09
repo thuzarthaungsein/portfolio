@@ -13,7 +13,7 @@ export default function OwnProjects() {
   const resumeData = useResume();
 
   return (
-    <section className="space-y-8 sm:space-y-12">
+    <section id="own" className="space-y-8 sm:space-y-12">
       <div className="text-center max-w-2xl mx-auto mb-0 my-16">
         <h2 className="text-4xl font-bold mb-4">
           <svg

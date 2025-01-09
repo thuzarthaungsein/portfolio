@@ -55,6 +55,15 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
+              href="#own"
+              className={`hover:text-foreground/80 ${
+                isActive == "own" ? "text-blue-400 font-bold" : ""
+              }`}
+              onClick={() => setIsActive("own")}
+            >
+              My-Creations
+            </Link>
+            <Link
               href="#skills"
               className={`hover:text-foreground/80 ${
                 isActive == "skills" ? "text-blue-400 font-bold" : ""
@@ -127,6 +136,15 @@ export default function Navbar() {
                     onClick={() => setIsOpen((prev) => !prev)}
                   >
                     Projects
+                  </Link>
+                </li>
+                <li className="dark:bg-black dark:hover:bg-gray-800 hover:bg-gray-100 ">
+                  <Link
+                    href="#own"
+                    className="block px-4 py-3"
+                    onClick={() => setIsOpen((prev) => !prev)}
+                  >
+                    My-Creations
                   </Link>
                 </li>
                 <li className="dark:bg-black dark:hover:bg-gray-800 hover:bg-gray-100 ">
