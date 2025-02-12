@@ -110,7 +110,7 @@ export default function Hero() {
           </svg>
         </a>
       </div>
-      <div className="relative h-32 w-32 md:h-64 md:w-64 overflow-hidden rounded-full bg-gray-200">
+      <div className="relative h-32 w-32 md:h-64 md:w-64 overflow-hidden rounded-full bg-[#d3d9ee]">
         {isExternalImage ? (
           // For external images
           <img
@@ -124,7 +124,7 @@ export default function Hero() {
             src={profileImage || "/placeholder-avatar.png"}
             alt={name}
             fill
-            className="object-cover"
+            className="object-contain"
             priority
           />
         )}

@@ -7,7 +7,7 @@ export const resumeData = {
     phone: "+66 0946428044",
     github: "https://github.com/thuzarthaungsein",
     linkedin: "https://www.linkedin.com/in/thuzar-thaung-sein/",
-    profileImage: "/profile.jpg",
+    profileImage: "/profile-new.jpg",
     summary:
       "Experienced software developer with a strong enthusiasm for React, PHP and Laravel. Skilled in designing, developing, and deploying innovative web solutions, integrating payment gateways and collaborating with cross-functional teams to deliver high-quality, scalable applications. Establishes remarkable problem-solving abilities, efficient time management, and adaptability in dynamic project environments.",
   },
