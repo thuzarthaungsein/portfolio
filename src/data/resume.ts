@@ -14,6 +14,32 @@ export const resumeData = {
   experience: [
     {
       title: "Full Stack Developer",
+      company: "Tally Payments (Thailand)",
+      location: "Thailand",
+      period: "Feb 2025 - Present",
+      responsibilities: [
+        "Designed, built, and deployed end-to-end microservices platform on AWS (Lambda, EC2, API Gateway, Cognito, Amplify) — designing service topology, event-driven pipelines (SNS/SQS FIFO), and deployment infrastructure across all services.",
+        "Built core merchant operations backend covering merchants, branches, terminals, and acquirer applications; plus a Next.js portal for internal teams and merchants to manage workflows and access reports.",
+        "Engineered a payout processor (Express + DuckDB) handling file ingestion, data preparation, and aggregation with DBA-managed SQL logic; added automated lookup data generation with validation rules, cutting manual payout prep effort.",
+        "Developed a Cash Transfer Dashboard (Express + TypeScript) for finance team payout visibility; built Holiday Service for acquirer calendar data used in payout scheduling calculations.",
+        "Built three Go microservices — BIN Range Service (real-time EDC terminal updates via SNS/SQS FIFO), Acquirer Service (acquirer program management), and Contact Service (person/address domain).",
+        "Deployed full-stack applications using Next.js, Express.js, TypeScript, Go, and MongoDB on AWS; enforced secure credential management via Secrets Manager with zero plain-text secrets policy.",
+      ],
+      skills: [
+        "Node.js",
+        "Express.js",
+        "TypeScript",
+        "Go",
+        "React.js",
+        "Next.js",
+        "AWS",
+        "MongoDB",
+        "Microservices Architecture",
+        "REST APIs",
+      ],
+    },
+    {
+      title: "Full Stack Developer",
       company: "Evolx IT & Business Solutions",
       location: "Myanmar (Remote)",
       period: "Jan 2024 - Nov 2024",
