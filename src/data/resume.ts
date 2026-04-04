@@ -9,7 +9,7 @@ export const resumeData = {
     linkedin: "https://www.linkedin.com/in/thuzar-thaung-sein/",
     profileImage: "/profile-new.jpg",
     summary:
-      "Experienced software developer with a strong enthusiasm for React, PHP and Laravel. Skilled in designing, developing, and deploying innovative web solutions, integrating payment gateways and collaborating with cross-functional teams to deliver high-quality, scalable applications. Establishes remarkable problem-solving abilities, efficient time management, and adaptability in dynamic project environments.",
+      "Full Stack developer specializing in production-grade fintech and SaaS platforms. Experienced in developing event-driven microservices, payout processing, and integrating payment gateways (Stripe, Fazz, KPay, CyberSource) across global markets. Strong in TypeScript, Node.js, Next.js and Express.js on AWS. A reliable and responsible engineer with a strong sense of ownership, solving challenges and delivering under pressure.",
   },
   experience: [
     {
@@ -18,12 +18,12 @@ export const resumeData = {
       location: "Thailand",
       period: "Feb 2025 - Present",
       responsibilities: [
-        "Designed, built, and deployed end-to-end microservices platform on AWS (Lambda, EC2, API Gateway, Cognito, Amplify) — designing service topology, event-driven pipelines (SNS/SQS FIFO), and deployment infrastructure across all services.",
-        "Built core merchant operations backend covering merchants, branches, terminals, and acquirer applications; plus a Next.js portal for internal teams and merchants to manage workflows and access reports.",
-        "Engineered a payout processor (Express + DuckDB) handling file ingestion, data preparation, and aggregation with DBA-managed SQL logic; added automated lookup data generation with validation rules, cutting manual payout prep effort.",
-        "Developed a Cash Transfer Dashboard (Express + TypeScript) for finance team payout visibility; built Holiday Service for acquirer calendar data used in payout scheduling calculations.",
-        "Built three Go microservices — BIN Range Service (real-time EDC terminal updates via SNS/SQS FIFO), Acquirer Service (acquirer program management), and Contact Service (person/address domain).",
-        "Deployed full-stack applications using Next.js, Express.js, TypeScript, Go, and MongoDB on AWS; enforced secure credential management via Secrets Manager with zero plain-text secrets policy.",
+        "Contributed to a Bank of Thailand-licensed payment facilitator platform serving 300+ merchants and processing USD $5M+ in monthly volume, delivering core services across merchant onboarding, payout processing, and operational tooling on AWS.",
+        "Built and maintained a merchant management backend handling onboarding, branch and terminal registration, and acquirer application workflows, reducing manual operational effort and improving data accuracy.",
+        "Engineered a payout processor handling file ingestion, data preparation, and aggregation with DBA-managed SQL logic; implemented lookup data generation with validation rules, significantly reducing manual intervention in daily payout runs.",
+        "Built operational dashboards providing finance and operations teams with payout visibility across 300+ merchants and 400+ branches, replacing manual reporting processes.",
+        "Designed and implemented event-driven architecture using AWS SNS/SQS FIFO, enabling real-time configuration updates across 700+ merchant terminals.",
+        "Deployed full-stack services using Next.js, Express.js, TypeScript, Go, and MongoDB on AWS; enforced secure credential management via Secrets Manager and managed GitLab CI/CD pipelines.",
       ],
       skills: [
         "Node.js",
@@ -71,13 +71,10 @@ export const resumeData = {
       location: "Singapore (Remote)",
       period: "Dec 2021 - Apr 2024",
       responsibilities: [
-        "Successfully launched E-commerce and Digital Ordering Platforms as a full-stack developer, resulting in a 30% increase in user engagement for online sales.",
-        "Established successful partnerships with over 20 companies, including Pizza Hut.",
-        "Implemented and maintained robust back-end APIs for Kitchen Management System.",
-        "Successfully integrated with payment infrastructures, STRIPE for global, Fazz for Singapore, and Kpay, KBZ, AYA, CitizenPay using CyberSource for Myanmar, optimizing and securing payments and payouts.",
-        "Managed and secured server data backups and media storage on AWS S3 and Cloudflare R2.",
-        "Collaborated with team members to optimize database structures (MySQL, MongoDB).",
-        "Utilized Git for version control and deployed projects using CI/CD pipelines, resulting in seamless development, testing and release.",
+        "Collaborated with cross-functional teams to deliver e-commerce and digital ordering platforms serving 20+ enterprise clients, including Pizza Hut, driving a 30% increase in online user engagement post-launch.",
+        "Integrated 6 payment gateways across 3 markets: Stripe (global), Fazz (Singapore), and KPay, KBZ, AYA, CitizenPay via CyberSource (Myanmar), handling payment collection and merchant payouts.",
+        "Built and maintained REST APIs for a Kitchen Management System consumed by mobile clients.",
+        "Managed production data integrity with automated backups to AWS S3 and Cloudflare R2; optimized MySQL and MongoDB schemas for improved query performance.",
       ],
       skills: [
         "React.js",
@@ -91,7 +88,7 @@ export const resumeData = {
       ],
     },
     {
-      title: "Team Leader",
+      title: "Full Stack Developer",
       company: "Management Partners (Myanmar Branch)",
       location: "Myanmar (Onsite)",
       period: "Jul 2019 - Aug 2021",
