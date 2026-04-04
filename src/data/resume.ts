@@ -15,7 +15,7 @@ export const resumeData = {
     {
       title: "Full Stack Developer",
       company: "Tally Payments (Thailand)",
-      location: "Thailand",
+      location: "Thailand (Hybrid)",
       period: "Feb 2025 - Present",
       responsibilities: [
         "Contributed to a Bank of Thailand-licensed payment facilitator platform serving 300+ merchants and processing USD $5M+ in monthly volume, delivering core services across merchant onboarding, payout processing, and operational tooling on AWS.",
