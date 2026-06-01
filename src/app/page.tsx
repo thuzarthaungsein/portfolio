@@ -124,8 +124,8 @@ export default function Home() {
     <div className="max-w-7xl mx-auto space-y-12">
       <Hero />
       <Experience />
-      <Projects />
       <OwnProjects />
+      <Projects />
       <Skills />
       <Certificates />
     </div>
