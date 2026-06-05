@@ -39,10 +39,10 @@ export const resumeData = {
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Software Engineer (Frontend Focus)",
       company: "Evolx IT & Business Solutions",
       location: "Myanmar (Remote)",
-      period: "Jan 2024 - Nov 2024",
+      period: "Jan 2024 - Jan 2025",
       responsibilities: [
         "Planning and establishing web applications as a full-stack, increasing user engagement.",
         "Enabling seamless integration and efficient functionality by developing and maintaining admin portal and robust back-end APIs for MM Study Online Learning Application, ensuring uninterrupted learning experiences for students.",
@@ -66,7 +66,7 @@ export const resumeData = {
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Backend Developer",
       company: "Alpha Sirius X",
       location: "Singapore (Remote)",
       period: "Dec 2021 - Apr 2024",
@@ -88,7 +88,7 @@ export const resumeData = {
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Backend Developer",
       company: "Management Partners (Myanmar Branch)",
       location: "Myanmar (Onsite)",
       period: "Jul 2019 - Aug 2021",
@@ -111,21 +111,10 @@ export const resumeData = {
       ],
     },
     {
-      title: "Full Stack Developer",
-      company: "Myanmar High Society",
-      location: "Myanmar (Onsite)",
-      period: "Mar 2019 - Jul 2019",
-      responsibilities: [
-        "Innovated outsourced projects using Yii Framework that enhanced client trust and user engagement.",
-        "Collaborated with team members to optimize database structures.",
-      ],
-      skills: ["Javascript", "CSS", "PHP Yii", "MySQL"],
-    },
-    {
-      title: "Full Stack Developer",
+      title: "Web Developer",
       company: "Trion Technologies",
       location: "Myanmar (Onsite)",
-      period: "Jun 2014 - Feb 2019",
+      period: "Jun 2014 - Jun 2019",
       responsibilities: [
         "Designed and implemented web applications as a full-stack developer, increasing user engagement and client trust.",
         "Developed and maintained customized applications, betting application, HR management system and robust back-end APIs for Myanmar local companies.",
