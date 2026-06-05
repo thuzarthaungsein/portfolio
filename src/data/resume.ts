@@ -9,7 +9,7 @@ export const resumeData = {
     linkedin: "https://www.linkedin.com/in/thuzar-thaung-sein/",
     profileImage: "/profile-new.jpg",
     summary:
-      "Full Stack developer specializing in production-grade fintech and SaaS platforms. Experienced in developing event-driven microservices, payout processing, and integrating payment gateways (Stripe, Fazz, KPay, CyberSource) across global markets. Strong in TypeScript, Node.js, Next.js and Express.js on AWS. A reliable and responsible engineer with a strong sense of ownership, solving challenges and delivering under pressure.",
+      "Full-Stack Developer building production-grade fintech and SaaS platforms. Specialized in event-driven microservices, payment processing systems, e-commerce platforms, and integrations with global payment gateways. Strong sense of ownership with a focus on designing scalable systems, solving technical challenges, and delivering reliable software in high-pressure production environments.",
   },
   experience: [
     {
@@ -272,7 +272,6 @@ export const resumeData = {
     tools: [
       { name: "AWS", level: 3 },
       { name: "Jira", level: 4 },
-      { name: "Figma", level: 3 },
       { name: "Git", level: 5 },
       { name: "GitHub Actions", level: 5 },
       { name: "GitLab CI/CD", level: 5 },
@@ -281,7 +280,6 @@ export const resumeData = {
       { name: "Micro Services", level: 4 },
       { name: "Event-Driven", level: 4 },
       { name: "REST APIs", level: 5 },
-      { name: "MVC", level: 5 },
       { name: "Agile/Scrum", level: 4 },
     ],
   },
