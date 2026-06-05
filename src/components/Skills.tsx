@@ -4,7 +4,8 @@ export default function Skills() {
   const resumeData = useResume();
   const skills = resumeData.skills || {
     languages: [],
-    frameworks: [],
+    frontend: [],
+    backend: [],
     tools: [],
     concepts: [],
   };
@@ -28,7 +29,7 @@ export default function Skills() {
                   >
                     {skill.name}
                   </span>
-                )
+                ),
               )}
             </div>
           </div>

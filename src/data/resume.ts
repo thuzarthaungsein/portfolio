@@ -244,12 +244,6 @@ export const resumeData = {
       url: "https://itpec.org/about/itpec.html",
     },
     {
-      name: "Account (Level I, II)",
-      description:
-        "London Chamber of Commerce and Industry (LCCI) international qualifications",
-      url: "#",
-    },
-    {
       name: "Post Graduate Diploma in English. (PGDE - MUFL)",
       description:
         "Diploma from Mandalay University of Foreign Languages (MUFL)",
@@ -258,34 +252,37 @@ export const resumeData = {
   ],
   skills: {
     languages: [
-      { name: "React.js", level: 4 },
+      { name: "JavaScript", level: 4 },
       { name: "TypeScript", level: 3 },
       { name: "PHP", level: 5 },
+      { name: "Go", level: 5 },
     ],
-    frameworks: [
-      { name: "Next.js", level: 5 },
+    frontend: [
+      { name: "React.js", level: 5 },
+      { name: "Next.js", level: 4 },
+      { name: "Tailwind", level: 5 },
+      { name: "CSS", level: 5 },
+    ],
+    backend: [
+      { name: "Node.js", level: 5 },
+      { name: "Express.js", level: 5 },
       { name: "Laravel", level: 5 },
-      { name: "Filament", level: 3 },
-      { name: "Astro", level: 4 },
-      { name: "Flutter", level: 4 },
+      { name: "Go (Gin)", level: 3 },
     ],
     tools: [
-      { name: "Git", level: 5 },
-      { name: "Firebase", level: 4 },
-      { name: "GitHub", level: 5 },
-      { name: "VS Code", level: 4 },
       { name: "AWS", level: 3 },
-      { name: "Cloudflare", level: 3 },
       { name: "Jira", level: 4 },
       { name: "Figma", level: 3 },
-      { name: "Runcloud", level: 3 },
+      { name: "Git", level: 5 },
+      { name: "GitHub Actions", level: 5 },
+      { name: "GitLab CI/CD", level: 5 },
     ],
     concepts: [
-      { name: "Clean Architecture", level: 4 },
-      { name: "MVC", level: 5 },
-      { name: "CI/CD", level: 4 },
-      { name: "Agile/Scrum", level: 4 },
+      { name: "Micro Services", level: 4 },
+      { name: "Event-Driven", level: 4 },
       { name: "REST APIs", level: 5 },
+      { name: "MVC", level: 5 },
+      { name: "Agile/Scrum", level: 4 },
     ],
   },
 };

@@ -123,10 +123,10 @@ export default function Home() {
   return (
     <div className="max-w-7xl mx-auto space-y-12">
       <Hero />
+      <Skills />
       <Experience />
       <OwnProjects />
       <Projects />
-      <Skills />
       <Certificates />
     </div>
   );
